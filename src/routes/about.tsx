@@ -62,11 +62,31 @@ function About() {
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Leadership</p>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Led with purpose</h2>
           <div className="mx-auto mt-5 gold-divider" />
-          <div className="mt-12 inline-block rounded-2xl border border-border bg-card px-12 py-10 shadow-elegant">
-            <div className="mx-auto h-24 w-24 rounded-full bg-gradient-royal shadow-royal" />
-            <h3 className="mt-6 text-2xl font-bold">Sriharsha Komera</h3>
-            <p className="mt-1 text-sm font-medium text-gold-deep">Founder & Director</p>
-            <p className="mt-4 max-w-md text-sm text-muted-foreground">Driving SRISRAVV's vision of building India's most trusted premium intercity travel brand.</p>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2">
+            {[
+              {
+                name: "Sriharsha Komera",
+                role: "Chairman & Managing Director",
+                email: "sriharsha.komera@srisravv.com",
+                bio: "Driving SRISRAVV's vision of building India's most trusted premium intercity travel brand.",
+              },
+              {
+                name: "Sravani Madduru",
+                role: "Director",
+                email: "sravani.madduru@srisravv.com",
+                bio: "Championing operational excellence and customer-first culture across SRISRAVV.",
+              },
+            ].map((p) => (
+              <div key={p.name} className="rounded-2xl border border-border bg-card px-8 py-10 shadow-elegant">
+                <div className="mx-auto h-24 w-24 rounded-full bg-gradient-royal shadow-royal" />
+                <h3 className="mt-6 text-2xl font-bold">{p.name}</h3>
+                <p className="mt-1 text-sm font-medium text-gold-deep">{p.role}</p>
+                <p className="mt-3 text-sm">
+                  <a href={`mailto:${p.email}`} className="text-primary hover:underline">{p.email}</a>
+                </p>
+                <p className="mt-4 text-sm text-muted-foreground">{p.bio}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
