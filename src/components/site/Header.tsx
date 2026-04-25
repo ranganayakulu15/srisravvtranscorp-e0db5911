@@ -3,13 +3,14 @@ import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import logo from "@/assets/logo.jpg";
 
-const navLinks = [
+type NavLink = { to: "/" | "/about" | "/our-business" | "/careers" | "/contact"; label: string; hasDropdown?: boolean };
+const navLinks: NavLink[] = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
   { to: "/our-business", label: "Our Business", hasDropdown: true },
   { to: "/careers", label: "Careers" },
   { to: "/contact", label: "Contact" },
-] as const;
+];
 
 export function Header() {
   const [open, setOpen] = useState(false);
