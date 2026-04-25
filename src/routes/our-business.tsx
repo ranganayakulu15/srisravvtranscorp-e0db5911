@@ -31,7 +31,7 @@ function OurBusiness() {
               <p className="inline-flex items-center gap-2 rounded-full bg-gold/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-gold-deep">
                 <Bus className="h-3 w-3" /> Flagship Venture
               </p>
-              <h2 className="mt-4 text-4xl font-bold md:text-5xl">Intercity Premium AC Sleeper Buses</h2>
+              <h2 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">Intercity Premium AC Sleeper Buses</h2>
               <div className="mt-5 gold-divider" />
               <p className="mt-6 leading-relaxed text-muted-foreground">
                 Our flagship offering — a meticulously designed premium AC sleeper service connecting India's busiest intercity routes. Built around comfort, punctuality, and uncompromised safety.
@@ -60,7 +60,7 @@ function OurBusiness() {
       <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 text-center md:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Roadmap</p>
-          <h2 className="mt-3 text-4xl font-bold">Building for the long road ahead</h2>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Building for the long road ahead</h2>
           <div className="mx-auto mt-5 gold-divider" />
           <div className="mt-16 grid gap-6 md:grid-cols-3">
             {[

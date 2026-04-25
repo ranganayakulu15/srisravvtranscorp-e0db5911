@@ -42,7 +42,7 @@ function Careers() {
       <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto max-w-4xl px-4 text-center md:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Open Roles</p>
-          <h2 className="mt-3 text-4xl font-bold">We're hiring across functions</h2>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">We're hiring across functions</h2>
           <div className="mx-auto mt-5 gold-divider" />
           <p className="mx-auto mt-6 max-w-2xl text-muted-foreground">
             Operations, Fleet Management, Customer Experience, Technology, Marketing, Finance, and more. Specific roles will be posted here soon — in the meantime, send us your profile.

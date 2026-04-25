@@ -56,7 +56,7 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Our Promise</p>
-            <h2 className="mt-3 text-4xl font-bold text-foreground md:text-5xl">A new standard in travel</h2>
+            <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">A new standard in travel</h2>
             <div className="mx-auto mt-5 gold-divider" />
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-3">
@@ -87,7 +87,7 @@ function Index() {
           </div>
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">About SRISRAVV</p>
-            <h2 className="mt-3 text-4xl font-bold text-foreground md:text-5xl">A corporation built on conviction</h2>
+            <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">A corporation built on conviction</h2>
             <div className="mt-5 gold-divider" />
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
               Headquartered in Hyderabad's Financial District, SRISRAVV TRANSCORP PRIVATE LIMITED is laying the foundation for a premium intercity travel brand — combining operational excellence with passenger-first design.
@@ -108,7 +108,7 @@ function Index() {
           <div className="grid gap-12 md:grid-cols-2 md:items-center">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Our Business</p>
-              <h2 className="mt-3 text-4xl font-bold md:text-5xl">Premium intercity, reimagined.</h2>
+              <h2 className="mt-3 text-3xl font-bold sm:text-4xl md:text-5xl">Premium intercity, reimagined.</h2>
               <div className="mt-5 gold-divider" />
               <p className="mt-6 text-lg text-primary-foreground/85">
                 Our flagship venture — a fleet of premium AC sleeper buses connecting India's most travelled corridors with luxury, safety, and punctuality.

@@ -25,7 +25,7 @@ function About() {
           <img src={office} alt="Corporate office" loading="lazy" width={1600} height={1000} className="rounded-2xl shadow-elegant" />
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Who We Are</p>
-            <h2 className="mt-3 text-4xl font-bold">Crafted with conviction. Built for scale.</h2>
+            <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Crafted with conviction. Built for scale.</h2>
             <div className="mt-5 gold-divider" />
             <p className="mt-6 leading-relaxed text-muted-foreground">
               SRISRAVV TRANSCORP PRIVATE LIMITED is a Hyderabad-based transport corporation, founded with the ambition of building India's most trusted premium travel brand. We bring together operational rigour, passenger-first design, and a deep respect for our customers' time.
@@ -60,7 +60,7 @@ function About() {
       <section className="bg-background py-16 md:py-24">
         <div className="mx-auto max-w-4xl px-4 text-center md:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Leadership</p>
-          <h2 className="mt-3 text-4xl font-bold">Led with purpose</h2>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Led with purpose</h2>
           <div className="mx-auto mt-5 gold-divider" />
           <div className="mt-12 inline-block rounded-2xl border border-border bg-card px-12 py-10 shadow-elegant">
             <div className="mx-auto h-24 w-24 rounded-full bg-gradient-royal shadow-royal" />
