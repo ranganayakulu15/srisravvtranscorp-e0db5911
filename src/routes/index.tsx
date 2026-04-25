@@ -137,8 +137,8 @@ function Index() {
 
       {/* CTA */}
       <section className="bg-background py-16 md:py-24">
-        <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-royal px-8 py-16 text-center text-primary-foreground shadow-royal md:px-16">
-          <h2 className="text-3xl font-bold md:text-4xl">Partner with India's next premium travel brand.</h2>
+        <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-royal px-6 py-12 text-center text-primary-foreground shadow-royal sm:px-8 sm:py-16 md:px-16">
+          <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl">Partner with India's next premium travel brand.</h2>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/85">For partnerships, investments, or career opportunities — we'd love to hear from you.</p>
           <Link to="/contact" className="mt-8 inline-flex items-center gap-2 rounded-md bg-gradient-gold px-7 py-3.5 text-sm font-semibold text-gold-foreground shadow-gold transition-smooth hover:opacity-95">
             Contact Us <ArrowRight className="h-4 w-4" />
