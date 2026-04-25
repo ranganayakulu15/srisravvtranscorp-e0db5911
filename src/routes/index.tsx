@@ -52,7 +52,7 @@ function Index() {
       </section>
 
       {/* Pillars */}
-      <section className="bg-background py-24">
+      <section className="bg-background py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Our Promise</p>
@@ -79,7 +79,7 @@ function Index() {
       </section>
 
       {/* About strip */}
-      <section className="bg-secondary py-24">
+      <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:grid-cols-2 md:px-8">
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-gradient-royal opacity-20 blur-2xl" />
@@ -103,7 +103,7 @@ function Index() {
       </section>
 
       {/* Business teaser */}
-      <section className="relative overflow-hidden bg-gradient-hero py-24 text-primary-foreground">
+      <section className="relative overflow-hidden bg-gradient-hero py-16 text-primary-foreground md:py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="grid gap-12 md:grid-cols-2 md:items-center">
             <div>
@@ -136,7 +136,7 @@ function Index() {
       </section>
 
       {/* CTA */}
-      <section className="bg-background py-24">
+      <section className="bg-background py-16 md:py-24">
         <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-royal px-8 py-16 text-center text-primary-foreground shadow-royal md:px-16">
           <h2 className="text-3xl font-bold md:text-4xl">Partner with India's next premium travel brand.</h2>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/85">For partnerships, investments, or career opportunities — we'd love to hear from you.</p>

@@ -19,7 +19,7 @@ function Careers() {
     <Layout>
       <PageHero eyebrow="Careers" title="Build the road ahead, with us." subtitle="We're assembling a passionate team to launch India's next premium intercity travel brand." />
 
-      <section className="bg-background py-24">
+      <section className="bg-background py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="grid gap-6 md:grid-cols-3">
             {[
@@ -39,7 +39,7 @@ function Careers() {
         </div>
       </section>
 
-      <section className="bg-secondary py-24">
+      <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto max-w-4xl px-4 text-center md:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Open Roles</p>
           <h2 className="mt-3 text-4xl font-bold">We're hiring across functions</h2>

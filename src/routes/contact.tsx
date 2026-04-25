@@ -50,7 +50,7 @@ function Contact() {
     <Layout>
       <PageHero eyebrow="Contact" title="Let's start a conversation" subtitle="For business, partnerships, careers, or general queries — our team is ready to help." />
 
-      <section className="bg-background py-24">
+      <section className="bg-background py-16 md:py-24">
         <div className="mx-auto grid max-w-7xl gap-10 px-4 md:grid-cols-3 md:px-8">
           {[
             { icon: MapPin, title: "Visit Us", lines: ["Alt.F, Kapil Kavuri Hub,", "Financial District, Nanakramguda,", "Telangana – 500032"] },
@@ -70,7 +70,7 @@ function Contact() {
         </div>
       </section>
 
-      <section className="bg-secondary py-24">
+      <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto grid max-w-7xl gap-12 px-4 md:grid-cols-2 md:px-8">
           {/* Form */}
           <div className="rounded-2xl border border-border bg-card p-8 shadow-elegant md:p-10">

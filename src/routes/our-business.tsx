@@ -20,7 +20,7 @@ function OurBusiness() {
     <Layout>
       <PageHero eyebrow="Our Business" title="Premium mobility, end to end." subtitle="A growing portfolio of travel and transport services — anchored by our flagship intercity sleeper brand." />
 
-      <section className="bg-background py-24">
+      <section className="bg-background py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
             <div className="relative">
@@ -57,7 +57,7 @@ function OurBusiness() {
         </div>
       </section>
 
-      <section className="bg-secondary py-24">
+      <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 text-center md:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Roadmap</p>
           <h2 className="mt-3 text-4xl font-bold">Building for the long road ahead</h2>

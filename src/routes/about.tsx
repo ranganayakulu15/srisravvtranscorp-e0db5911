@@ -20,7 +20,7 @@ function About() {
     <Layout>
       <PageHero eyebrow="About Us" title="The story behind SRISRAVV" subtitle="A modern transport corporation with a singular goal — to set new benchmarks in intercity travel." />
 
-      <section className="bg-background py-24">
+      <section className="bg-background py-16 md:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:grid-cols-2 md:px-8">
           <img src={office} alt="Corporate office" loading="lazy" width={1600} height={1000} className="rounded-2xl shadow-elegant" />
           <div>
@@ -37,7 +37,7 @@ function About() {
         </div>
       </section>
 
-      <section className="bg-secondary py-24">
+      <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="grid gap-6 md:grid-cols-3">
             {[
@@ -57,7 +57,7 @@ function About() {
         </div>
       </section>
 
-      <section className="bg-background py-24">
+      <section className="bg-background py-16 md:py-24">
         <div className="mx-auto max-w-4xl px-4 text-center md:px-8">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Leadership</p>
           <h2 className="mt-3 text-4xl font-bold">Led with purpose</h2>
