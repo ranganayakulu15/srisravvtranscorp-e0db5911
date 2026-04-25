@@ -27,23 +27,23 @@ function Index() {
           <div className="absolute inset-0 bg-gradient-to-r from-primary-deep/95 via-primary-deep/80 to-primary-deep/40" style={{ ['--tw-gradient-from' as never]: undefined }} />
           <div className="absolute inset-0" style={{ background: "linear-gradient(120deg, oklch(0.18 0.1 295 / 0.95) 0%, oklch(0.22 0.12 295 / 0.7) 50%, oklch(0.18 0.1 295 / 0.4) 100%)" }} />
         </div>
-        <div className="mx-auto flex min-h-[88vh] max-w-7xl items-center px-4 py-24 md:px-8">
+        <div className="mx-auto flex min-h-[80vh] max-w-7xl items-center px-4 py-16 sm:py-20 md:min-h-[88vh] md:px-8 md:py-24">
           <div className="max-w-2xl text-primary-foreground">
-            <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-gold">
+            <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-gold sm:px-4 sm:text-xs sm:tracking-[0.25em]">
               <Sparkles className="h-3 w-3" /> Premium Intercity Travel
             </p>
-            <h1 className="text-5xl font-bold leading-[1.05] md:text-7xl">
+            <h1 className="text-4xl font-bold leading-[1.1] sm:text-5xl md:text-7xl">
               Driven by <span className="text-gradient-gold">Trust.</span><br />
               Defined by <span className="text-gradient-gold">Excellence.</span>
             </h1>
-            <p className="mt-6 max-w-xl text-lg text-primary-foreground/85 md:text-xl">
+            <p className="mt-5 max-w-xl text-base text-primary-foreground/85 sm:text-lg md:text-xl">
               SRISRAVV TRANSCORP is redefining intercity travel in India with premium AC sleeper bus services — where comfort meets uncompromised quality.
             </p>
-            <div className="mt-10 flex flex-wrap gap-4">
-              <Link to="/our-business" className="group inline-flex items-center gap-2 rounded-md bg-gradient-gold px-7 py-3.5 text-sm font-semibold text-gold-foreground shadow-gold transition-smooth hover:opacity-95">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+              <Link to="/our-business" className="group inline-flex items-center justify-center gap-2 rounded-md bg-gradient-gold px-6 py-3.5 text-sm font-semibold text-gold-foreground shadow-gold transition-smooth hover:opacity-95">
                 Discover Our Business <ArrowRight className="h-4 w-4 transition-smooth group-hover:translate-x-1" />
               </Link>
-              <Link to="/contact" className="inline-flex items-center gap-2 rounded-md border border-primary-foreground/30 bg-primary-foreground/5 px-7 py-3.5 text-sm font-semibold text-primary-foreground backdrop-blur transition-smooth hover:bg-primary-foreground/10">
+              <Link to="/contact" className="inline-flex items-center justify-center gap-2 rounded-md border border-primary-foreground/30 bg-primary-foreground/5 px-6 py-3.5 text-sm font-semibold text-primary-foreground backdrop-blur transition-smooth hover:bg-primary-foreground/10">
                 Get in Touch
               </Link>
             </div>
@@ -52,11 +52,11 @@ function Index() {
       </section>
 
       {/* Pillars */}
-      <section className="bg-background py-24">
+      <section className="bg-background py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Our Promise</p>
-            <h2 className="mt-3 text-4xl font-bold text-foreground md:text-5xl">A new standard in travel</h2>
+            <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">A new standard in travel</h2>
             <div className="mx-auto mt-5 gold-divider" />
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-3">
@@ -79,7 +79,7 @@ function Index() {
       </section>
 
       {/* About strip */}
-      <section className="bg-secondary py-24">
+      <section className="bg-secondary py-16 md:py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-12 px-4 md:grid-cols-2 md:px-8">
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-gradient-royal opacity-20 blur-2xl" />
@@ -87,7 +87,7 @@ function Index() {
           </div>
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">About SRISRAVV</p>
-            <h2 className="mt-3 text-4xl font-bold text-foreground md:text-5xl">A corporation built on conviction</h2>
+            <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">A corporation built on conviction</h2>
             <div className="mt-5 gold-divider" />
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
               Headquartered in Hyderabad's Financial District, SRISRAVV TRANSCORP PRIVATE LIMITED is laying the foundation for a premium intercity travel brand — combining operational excellence with passenger-first design.
@@ -103,12 +103,12 @@ function Index() {
       </section>
 
       {/* Business teaser */}
-      <section className="relative overflow-hidden bg-gradient-hero py-24 text-primary-foreground">
+      <section className="relative overflow-hidden bg-gradient-hero py-16 text-primary-foreground md:py-24">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="grid gap-12 md:grid-cols-2 md:items-center">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Our Business</p>
-              <h2 className="mt-3 text-4xl font-bold md:text-5xl">Premium intercity, reimagined.</h2>
+              <h2 className="mt-3 text-3xl font-bold sm:text-4xl md:text-5xl">Premium intercity, reimagined.</h2>
               <div className="mt-5 gold-divider" />
               <p className="mt-6 text-lg text-primary-foreground/85">
                 Our flagship venture — a fleet of premium AC sleeper buses connecting India's most travelled corridors with luxury, safety, and punctuality.
@@ -136,9 +136,9 @@ function Index() {
       </section>
 
       {/* CTA */}
-      <section className="bg-background py-24">
-        <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-royal px-8 py-16 text-center text-primary-foreground shadow-royal md:px-16">
-          <h2 className="text-3xl font-bold md:text-4xl">Partner with India's next premium travel brand.</h2>
+      <section className="bg-background py-16 md:py-24">
+        <div className="mx-auto max-w-4xl rounded-3xl bg-gradient-royal px-6 py-12 text-center text-primary-foreground shadow-royal sm:px-8 sm:py-16 md:px-16">
+          <h2 className="text-2xl font-bold sm:text-3xl md:text-4xl">Partner with India's next premium travel brand.</h2>
           <p className="mx-auto mt-4 max-w-xl text-primary-foreground/85">For partnerships, investments, or career opportunities — we'd love to hear from you.</p>
           <Link to="/contact" className="mt-8 inline-flex items-center gap-2 rounded-md bg-gradient-gold px-7 py-3.5 text-sm font-semibold text-gold-foreground shadow-gold transition-smooth hover:opacity-95">
             Contact Us <ArrowRight className="h-4 w-4" />
