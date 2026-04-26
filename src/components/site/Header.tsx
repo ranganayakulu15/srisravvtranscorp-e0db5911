@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
+import logoSrisravv from "@/assets/logo-srisravv.png";
 
 type NavLink = { to: "/" | "/about" | "/our-business" | "/careers" | "/contact"; label: string; hasDropdown?: boolean };
 const navLinks: NavLink[] = [
@@ -17,14 +18,14 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-lg">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 md:px-8">
-        <Link to="/" className="flex items-center gap-3">
-          <div className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-xl bg-gradient-royal shadow-royal">
-            <span className="font-display text-2xl md:text-3xl font-bold text-primary-foreground tracking-tight">S</span>
-          </div>
-          <div className="flex flex-col leading-none">
-            <span className="font-display text-xl md:text-2xl font-bold tracking-wide text-foreground">SRISRAVV</span>
-            <span className="text-[10px] md:text-xs font-semibold uppercase tracking-[0.25em] text-gold-deep">Transcorp</span>
-          </div>
+        <Link to="/" className="flex items-center" aria-label="SRISRAVV Transcorp Private Limited — Home">
+          <img
+            src={logoSrisravv}
+            alt="SRISRAVV Transcorp Private Limited"
+            className="h-14 md:h-16 w-auto object-contain"
+            loading="eager"
+            decoding="async"
+          />
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
