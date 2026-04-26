@@ -34,6 +34,12 @@ export const Route = createRootRoute({
       { name: "author", content: "SRISRAVV TRANSCORP PRIVATE LIMITED" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "SRISRAVV TRANSCORP — Driven by Trust. Defined by Excellence." },
+      { name: "twitter:title", content: "SRISRAVV TRANSCORP — Driven by Trust. Defined by Excellence." },
+      { property: "og:description", content: "SRISRAVV TRANSCORP PRIVATE LIMITED — premium intercity AC sleeper bus services from Hyderabad." },
+      { name: "twitter:description", content: "SRISRAVV TRANSCORP PRIVATE LIMITED — premium intercity AC sleeper bus services from Hyderabad." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39a14910-1f0a-4b77-9af3-db8be4a2a150/id-preview-7b468df5--d6f61c4f-8a6f-4016-a949-f9c8a851e901.lovable.app-1777171389381.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39a14910-1f0a-4b77-9af3-db8be4a2a150/id-preview-7b468df5--d6f61c4f-8a6f-4016-a949-f9c8a851e901.lovable.app-1777171389381.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
