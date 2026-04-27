@@ -22,16 +22,10 @@ export function Header() {
           <img
             src={logoSrisravv}
             alt="SRISRAVV Transcorp Private Limited"
-            className="h-16 w-auto object-contain md:h-20 lg:h-24"
+            className="h-20 w-auto object-contain md:h-24 lg:h-28"
             loading="eager"
             decoding="async"
           />
-          <div className="hidden flex-col leading-none sm:flex">
-            <span className="text-royale text-xl md:text-2xl lg:text-3xl">SRISRAVV ROYALE</span>
-            <span className="mt-1 text-[9px] font-semibold uppercase tracking-[0.32em] text-muted-foreground md:text-[10px]">
-              Transcorp Private Limited
-            </span>
-          </div>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
