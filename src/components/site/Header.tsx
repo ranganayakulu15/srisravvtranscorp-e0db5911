@@ -18,14 +18,22 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-lg">
       <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-4 md:h-28 md:px-8">
-        <Link to="/" className="flex items-center gap-3" aria-label="SRISRAVV ROYALE — Home">
+        <Link to="/" className="flex items-center gap-3" aria-label="SRISRAVV Transcorp Private Limited — Home">
           <img
             src={logoSrisravv}
             alt="SRISRAVV Transcorp Private Limited"
-            className="h-20 w-auto object-contain md:h-24 lg:h-28"
+            className="h-14 w-auto object-contain md:h-20 lg:h-24"
             loading="eager"
             decoding="async"
           />
+          <div className="flex flex-col leading-tight">
+            <span className="font-brand text-base font-bold tracking-wide text-royale md:text-xl lg:text-2xl">
+              SRISRAVV TRANSCORP PRIVATE LIMITED
+            </span>
+            <span className="font-heading text-[10px] italic text-muted-foreground md:text-xs lg:text-sm">
+              Driven by Trust. Defined by Excellence.
+            </span>
+          </div>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">
