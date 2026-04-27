@@ -17,15 +17,21 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-lg">
-      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 md:px-8">
-        <Link to="/" className="flex items-center" aria-label="SRISRAVV Transcorp Private Limited — Home">
+      <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-4 md:h-28 md:px-8">
+        <Link to="/" className="flex items-center gap-3" aria-label="SRISRAVV ROYALE — Home">
           <img
             src={logoSrisravv}
             alt="SRISRAVV Transcorp Private Limited"
-            className="h-14 md:h-16 w-auto object-contain"
+            className="h-16 w-auto object-contain md:h-20 lg:h-24"
             loading="eager"
             decoding="async"
           />
+          <div className="hidden flex-col leading-none sm:flex">
+            <span className="text-royale text-xl md:text-2xl lg:text-3xl">SRISRAVV ROYALE</span>
+            <span className="mt-1 text-[9px] font-semibold uppercase tracking-[0.32em] text-muted-foreground md:text-[10px]">
+              Transcorp Private Limited
+            </span>
+          </div>
         </Link>
 
         <nav className="hidden items-center gap-1 lg:flex">

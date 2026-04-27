@@ -30,8 +30,9 @@
   --color-border: var(--border);
   --color-input: var(--input);
   --color-ring: var(--ring);
-  --font-display: "Cormorant Garamond", Georgia, serif;
-  --font-sans: "Manrope", system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-sans: "Outfit", system-ui, sans-serif;
+  --font-brand: "Cinzel", "Playfair Display", Georgia, serif;
 }
 
 :root {
@@ -131,5 +132,18 @@
     background: var(--gradient-gold);
     width: 80px;
     border-radius: 999px;
+  }
+  .font-brand {
+    font-family: var(--font-brand);
+    letter-spacing: 0.08em;
+  }
+  .text-royale {
+    font-family: var(--font-brand);
+    background-image: var(--gradient-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 0.12em;
+    font-weight: 700;
   }
 }
