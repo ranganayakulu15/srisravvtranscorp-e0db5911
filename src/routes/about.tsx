@@ -69,27 +69,22 @@ function About() {
               {
                 name: "Sriharsha Komera",
                 role: "Chairman & Managing Director",
-                email: "sriharsha.komera@srisravv.com",
                 bio: "Driving SRISRAVV's vision of building India's most trusted premium intercity travel brand.",
                 photo: founderSriharsha,
               },
               {
                 name: "Sravani Madduru",
                 role: "Director",
-                email: "sravani.madduru@srisravv.com",
                 bio: "Championing operational excellence and customer-first culture across SRISRAVV.",
                 photo: founderSravani,
               },
             ].map((p) => (
               <div key={p.name} className="rounded-2xl border border-border bg-card px-8 py-10 shadow-elegant">
-                <div className="mx-auto h-32 w-32 overflow-hidden rounded-full ring-4 ring-gold-deep/30 shadow-royal">
-                  <img src={p.photo} alt={p.name} loading="lazy" className="h-full w-full object-cover" />
+                <div className="mx-auto h-48 w-48 overflow-hidden rounded-full ring-4 ring-gold-deep/30 shadow-royal sm:h-56 sm:w-56">
+                  <img src={p.photo} alt={p.name} loading="lazy" className="h-full w-full object-cover object-center" />
                 </div>
                 <h3 className="mt-6 text-2xl font-bold">{p.name}</h3>
                 <p className="mt-1 text-sm font-medium text-gold-deep">{p.role}</p>
-                <p className="mt-3 text-sm">
-                  <a href={`mailto:${p.email}`} className="text-primary hover:underline">{p.email}</a>
-                </p>
                 <p className="mt-4 text-sm text-muted-foreground">{p.bio}</p>
               </div>
             ))}

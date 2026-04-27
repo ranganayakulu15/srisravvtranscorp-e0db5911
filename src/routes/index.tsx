@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
 import { Layout } from "@/components/site/Layout";
-import { ArrowRight, ShieldCheck, Sparkles, Bus, Users, Award, Target } from "lucide-react";
+import { ArrowRight, ShieldCheck, Bus, Users, Award, Target } from "lucide-react";
 import hero from "@/assets/hero-bus.jpg";
 import office from "@/assets/office.jpg";
 
@@ -29,15 +29,12 @@ function Index() {
         </div>
         <div className="mx-auto flex min-h-[80vh] max-w-7xl items-center px-4 py-16 sm:py-20 md:min-h-[88vh] md:px-8 md:py-24">
           <div className="max-w-2xl text-primary-foreground">
-            <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/10 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-gold sm:px-4 sm:text-xs sm:tracking-[0.25em]">
-              <Sparkles className="h-3 w-3" /> Premium Intercity Travel
-            </p>
             <h1 className="text-4xl font-bold leading-[1.1] sm:text-5xl md:text-7xl">
-              Driven by <span className="text-gradient-gold">Trust.</span><br />
-              Defined by <span className="text-gradient-gold">Excellence.</span>
+              Engineering <span className="text-gradient-gold">Excellence</span><br />
+              in Integrated <span className="text-gradient-gold">Logistics &amp; Transport.</span>
             </h1>
             <p className="mt-5 max-w-xl text-base text-primary-foreground/85 sm:text-lg md:text-xl">
-              SRISRAVV TRANSCORP is redefining intercity travel in India with premium AC sleeper bus services — where comfort meets uncompromised quality.
+              SRISRAVV TRANSCORP PRIVATE LIMITED is a diversified transport powerhouse dedicated to premium passenger mobility and end-to-end cargo solutions across India's busiest corridors.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
               <Link to="/our-business" className="group inline-flex items-center justify-center gap-2 rounded-md bg-gradient-gold px-6 py-3.5 text-sm font-semibold text-gold-foreground shadow-gold transition-smooth hover:opacity-95">
@@ -56,14 +53,14 @@ function Index() {
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-deep">Our Promise</p>
-            <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">A new standard in travel</h2>
+            <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">The Definitive Transit Standard</h2>
             <div className="mx-auto mt-5 gold-divider" />
           </div>
           <div className="mt-16 grid gap-6 md:grid-cols-3">
             {[
-              { icon: ShieldCheck, title: "Trust First", desc: "Built on transparency, safety, and a relentless commitment to our travellers." },
-              { icon: Award, title: "Premium Experience", desc: "Every detail engineered for comfort — from boarding to destination." },
-              { icon: Target, title: "Built for Tomorrow", desc: "A modern transport corporation prepared for India's next mobility wave." },
+              { icon: ShieldCheck, title: "Uncompromising Trust", desc: "Building lasting credibility through transparent operations and a culture of accountability." },
+              { icon: Award, title: "Elite Guest Experience", desc: "Delivering an end-to-end premium environment designed specifically for the discerning traveler." },
+              { icon: Target, title: "The Future of Mobility", desc: "A forward-thinking corporate framework engineered to lead India's next evolution in transport." },
             ].map((p) => (
               <div key={p.title} className="group relative overflow-hidden rounded-2xl border border-border bg-card p-8 shadow-elegant transition-smooth hover:-translate-y-1 hover:shadow-royal">
                 <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-gradient-royal opacity-10 transition-smooth group-hover:opacity-20" />
@@ -90,10 +87,10 @@ function Index() {
             <h2 className="mt-3 text-3xl font-bold text-foreground sm:text-4xl md:text-5xl">A corporation built on conviction</h2>
             <div className="mt-5 gold-divider" />
             <p className="mt-6 text-base leading-relaxed text-muted-foreground">
-              Headquartered in Hyderabad's Financial District, SRISRAVV TRANSCORP PRIVATE LIMITED is laying the foundation for a premium intercity travel brand — combining operational excellence with passenger-first design.
+              Headquartered in the Financial District of Hyderabad, SRISRAVV TRANSCORP PRIVATE LIMITED is an emerging leader in high-performance intercity mobility. By integrating institutional-grade operational frameworks with an uncompromising approach to passenger-centric design, we are establishing the new benchmark for premium transit.
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              Our vision is simple: to make every journey worth remembering.
+              <span className="font-semibold text-foreground">Our Mission:</span> To redefine the travel experience through precision, luxury, and unwavering service integrity.
             </p>
             <Link to="/about" className="mt-8 inline-flex items-center gap-2 text-sm font-semibold text-primary hover:text-primary-glow">
               Learn more about us <ArrowRight className="h-4 w-4" />

@@ -47,7 +47,7 @@ function Careers() {
           <p className="mx-auto mt-6 max-w-2xl text-muted-foreground">
             Operations, Fleet Management, Customer Experience, Technology, Marketing, Finance, and more. Specific roles will be posted here soon — in the meantime, send us your profile.
           </p>
-          <a href="mailto:sriharsha.komera@srisravv.com?subject=Career%20Opportunity%20at%20SRISRAVV" className="mt-8 inline-flex items-center gap-2 rounded-md bg-gradient-royal px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-royal transition-smooth hover:opacity-95">
+          <a href="mailto:corporate.office@srisravv.com?subject=Career%20Opportunity%20at%20SRISRAVV" className="mt-8 inline-flex items-center gap-2 rounded-md bg-gradient-royal px-7 py-3.5 text-sm font-semibold text-primary-foreground shadow-royal transition-smooth hover:opacity-95">
             <Mail className="h-4 w-4" /> Send Your Resume
           </a>
           <div className="mt-6">

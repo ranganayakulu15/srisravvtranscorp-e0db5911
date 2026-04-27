@@ -42,7 +42,7 @@ function Contact() {
     setErrors({});
     // Build mailto fallback (no backend yet)
     const body = `Name: ${result.data.name}%0D%0AEmail: ${result.data.email}%0D%0APhone: ${result.data.phone ?? "-"}%0D%0A%0D%0A${encodeURIComponent(result.data.message)}`;
-    window.location.href = `mailto:sriharsha.komera@srisravv.com?subject=${encodeURIComponent(result.data.subject)}&body=${body}`;
+    window.location.href = `mailto:corporate.office@srisravv.com?subject=${encodeURIComponent(result.data.subject)}&body=${body}`;
     setSubmitted(true);
   };
 
@@ -54,8 +54,8 @@ function Contact() {
         <div className="mx-auto grid max-w-7xl gap-10 px-4 md:grid-cols-3 md:px-8">
           {[
             { icon: MapPin, title: "Visit Us", lines: ["Alt.F, Kapil Kavuri Hub,", "Financial District, Nanakramguda,", "Telangana – 500032"] },
-            { icon: Phone, title: "Call Us", lines: ["+91-9603158764"], link: "tel:+919603158764" },
-            { icon: Mail, title: "Email Us", lines: ["sriharsha.komera@srisravv.com"], link: "mailto:sriharsha.komera@srisravv.com" },
+            { icon: Phone, title: "Call Us", lines: ["+91-9121212946"], link: "tel:+919121212946" },
+            { icon: Mail, title: "Email Us", lines: ["corporate.office@srisravv.com"], link: "mailto:corporate.office@srisravv.com" },
           ].map((c) => (
             <div key={c.title} className="rounded-2xl border border-border bg-card p-8 text-center shadow-elegant">
               <div className="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-royal text-primary-foreground shadow-royal">
