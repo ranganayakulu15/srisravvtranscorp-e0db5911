@@ -30,10 +30,7 @@ function About() {
             <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Crafted with conviction. Built for scale.</h2>
             <div className="mt-5 gold-divider" />
             <p className="mt-6 leading-relaxed text-muted-foreground">
-              SRISRAVV TRANSCORP PRIVATE LIMITED is a Hyderabad-based transport corporation, founded with the ambition of building India's most trusted premium travel brand. We bring together operational rigour, passenger-first design, and a deep respect for our customers' time.
-            </p>
-            <p className="mt-4 leading-relaxed text-muted-foreground">
-              From our headquarters at Kapil Kavuri Hub, we are preparing to launch a fleet of premium AC sleeper buses connecting India's most important intercity corridors.
+              Founded on the principles of integrity and innovation, SRISRAVV TRANSCORP PRIVATE LIMITED operates at the intersection of luxury and efficiency. While our premium passenger division redefines the travel experience, our logistics arm ensures the seamless movement of goods, creating a robust ecosystem for India's evolving transport needs.
             </p>
             <p className="mt-4 leading-relaxed text-muted-foreground">
               Founded on the principles of integrity and innovation, SRISRAVV TRANSCORP PRIVATE LIMITED operates at the intersection of luxury and efficiency. While our premium passenger division redefines the travel experience, our logistics arm ensures the seamless movement of goods, creating a robust ecosystem for India's evolving transport needs.
