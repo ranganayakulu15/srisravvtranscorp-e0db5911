@@ -27,10 +27,10 @@ export function Header() {
             decoding="async"
           />
           <div className="flex flex-col leading-tight min-w-0">
-            <span className="font-brand whitespace-nowrap text-[11px] font-bold tracking-[0.04em] text-primary-deep md:text-sm lg:text-base">
+            <span className="font-brand whitespace-nowrap text-[10px] font-bold tracking-tight text-primary-deep md:text-xs lg:text-sm">
               SRISRAVV TRANSCORP PRIVATE LIMITED
             </span>
-            <span className="font-brand whitespace-nowrap text-[9px] italic font-medium tracking-wide text-gold-deep md:text-[11px] lg:text-xs">
+            <span className="font-brand whitespace-nowrap text-[8px] italic font-medium tracking-wide text-gold-deep md:text-[10px] lg:text-[11px]">
               Driven by Trust. Defined by Excellence.
             </span>
           </div>
