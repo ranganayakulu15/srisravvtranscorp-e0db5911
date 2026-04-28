@@ -32,9 +32,6 @@ function About() {
             <p className="mt-6 leading-relaxed text-muted-foreground">
               Founded on the principles of integrity and innovation, SRISRAVV TRANSCORP PRIVATE LIMITED operates at the intersection of luxury and efficiency. While our premium passenger division redefines the travel experience, our logistics arm ensures the seamless movement of goods, creating a robust ecosystem for India's evolving transport needs.
             </p>
-            <p className="mt-4 leading-relaxed text-muted-foreground">
-              Founded on the principles of integrity and innovation, SRISRAVV TRANSCORP PRIVATE LIMITED operates at the intersection of luxury and efficiency. While our premium passenger division redefines the travel experience, our logistics arm ensures the seamless movement of goods, creating a robust ecosystem for India's evolving transport needs.
-            </p>
           </div>
         </div>
       </section>
