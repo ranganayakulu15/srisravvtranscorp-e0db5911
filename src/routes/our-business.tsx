@@ -31,7 +31,8 @@ function OurBusiness() {
               <p className="inline-flex items-center gap-2 rounded-full bg-gold/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-gold-deep">
                 <Bus className="h-3 w-3" /> Flagship Venture
               </p>
-              <h2 className="mt-4 text-3xl font-bold sm:text-4xl md:text-5xl">Intercity Premium AC Sleeper Buses</h2>
+              <p className="mt-4 font-brand text-2xl font-bold tracking-wide text-gold-deep sm:text-3xl">SRISRAVV ROYALE</p>
+              <h2 className="mt-2 text-3xl font-bold sm:text-4xl md:text-5xl">Intercity Premium AC Sleeper Buses</h2>
               <div className="mt-5 gold-divider" />
               <p className="mt-6 leading-relaxed text-muted-foreground">
                 Our flagship offering — a meticulously designed premium AC sleeper service connecting India's busiest intercity routes. Built around comfort, punctuality, and uncompromised safety.

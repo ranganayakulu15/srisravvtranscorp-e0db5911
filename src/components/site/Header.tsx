@@ -22,16 +22,16 @@ export function Header() {
           <img
             src={logoSrisravv}
             alt="SRISRAVV Transcorp Private Limited"
-            className="h-12 w-auto object-contain md:h-16 lg:h-20"
+            className="h-16 w-auto object-contain md:h-20 lg:h-24"
             loading="eager"
             decoding="async"
           />
-          <div className="flex flex-col leading-tight min-w-0">
+          <div className="flex flex-col leading-tight min-w-0 -ml-1">
             <span className="font-brand whitespace-nowrap text-[10px] font-bold tracking-tight text-primary-deep md:text-xs lg:text-sm">
               SRISRAVV TRANSCORP PRIVATE LIMITED
             </span>
             <span className="font-brand whitespace-nowrap text-[8px] italic font-medium tracking-wide text-gold-deep md:text-[10px] lg:text-[11px]">
-              Driven by Trust. Defined by Excellence.
+              Driven by trust. Defined by excellence.
             </span>
           </div>
         </Link>
