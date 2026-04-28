@@ -29,12 +29,11 @@ function Index() {
         </div>
         <div className="mx-auto flex min-h-[80vh] max-w-7xl items-center px-4 py-16 sm:py-20 md:min-h-[88vh] md:px-8 md:py-24">
           <div className="max-w-2xl text-primary-foreground">
-            <h1 className="text-4xl font-bold leading-[1.1] sm:text-5xl md:text-7xl">
-              Engineering <span className="text-gradient-gold">Excellence</span><br />
-              in Integrated <span className="text-gradient-gold">Logistics &amp; Transport.</span>
+            <h1 className="text-3xl font-bold leading-[1.15] sm:text-4xl md:text-5xl lg:text-6xl">
+              Engineering <span className="text-gradient-gold">Excellence</span> in Logistics &amp; Transport.
             </h1>
-            <p className="mt-5 max-w-xl text-base text-primary-foreground/85 sm:text-lg md:text-xl">
-              SRISRAVV TRANSCORP PRIVATE LIMITED is a diversified transport powerhouse dedicated to premium passenger mobility and end-to-end cargo solutions across India's busiest corridors.
+            <p className="mt-5 max-w-xl text-sm text-primary-foreground/85 sm:text-base md:text-lg">
+              A diversified transport powerhouse delivering premium passenger mobility and end-to-end cargo solutions across India.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
               <Link to="/our-business" className="group inline-flex items-center justify-center gap-2 rounded-md bg-gradient-gold px-6 py-3.5 text-sm font-semibold text-gold-foreground shadow-gold transition-smooth hover:opacity-95">
@@ -108,7 +107,7 @@ function Index() {
               <h2 className="mt-3 text-3xl font-bold sm:text-4xl md:text-5xl">Premium intercity, reimagined.</h2>
               <div className="mt-5 gold-divider" />
               <p className="mt-6 text-lg text-primary-foreground/85">
-                Our flagship venture — a fleet of premium AC sleeper buses connecting India's most travelled corridors with luxury, safety, and punctuality.
+                Our flagship venture <span className="font-bold text-gradient-gold">SRISRAVV ROYALE</span> — a fleet of premium AC sleeper buses connecting India's most travelled corridors with luxury, safety, and punctuality.
               </p>
               <Link to="/intercity" className="mt-8 inline-flex items-center gap-2 rounded-md bg-gradient-gold px-6 py-3 text-sm font-semibold text-gold-foreground shadow-gold transition-smooth hover:opacity-95">
                 <Bus className="h-4 w-4" /> Intercity Buses — Coming Soon

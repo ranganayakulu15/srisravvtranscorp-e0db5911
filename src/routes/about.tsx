@@ -69,13 +69,13 @@ function About() {
               {
                 name: "Sriharsha Komera",
                 role: "Chairman & Managing Director",
-                bio: "Driving SRISRAVV's vision of building India's most trusted premium intercity travel brand.",
+                bio: "Leading SRISRAVV with a bold vision to redefine India's intercity travel landscape while building a scalable, market-leading premium mobility enterprise. Focused on disciplined growth, strategic expansion, and long-term value creation, with a strong emphasis on innovation, brand leadership, and superior customer experience.",
                 photo: founderSriharsha,
               },
               {
                 name: "Sravani Madduru",
                 role: "Director",
-                bio: "Championing operational excellence and customer-first culture across SRISRAVV.",
+                bio: "Driving execution across operations with a focus on scalability, efficiency, and customer excellence. Ensuring consistent delivery of premium service standards while optimizing performance, strengthening systems, and supporting SRISRAVV's ambition to lead and transform the market.",
                 photo: founderSravani,
               },
             ].map((p) => (
