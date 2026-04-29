@@ -23,9 +23,9 @@ function Index() {
       {/* Hero */}
       <section className="relative isolate overflow-hidden">
         <div className="absolute inset-0 -z-10">
-          <img src={hero} alt="Premium AC sleeper bus on highway at dusk" className="h-full w-full object-cover brightness-75" width={1920} height={1080} />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary-deep/70 via-primary-deep/50 to-primary-deep/20" />
-          <div className="absolute inset-0" style={{ background: "linear-gradient(120deg, oklch(0.18 0.1 295 / 0.55) 0%, oklch(0.22 0.12 295 / 0.35) 50%, oklch(0.18 0.1 295 / 0.15) 100%)" }} />
+          <img src={hero} alt="Premium AC sleeper bus on highway at dusk" className="h-full w-full object-cover brightness-90 contrast-110 saturate-110" width={1920} height={1080} />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary-deep/55 via-primary-deep/35 to-primary-deep/10" />
+          <div className="absolute inset-0" style={{ background: "linear-gradient(120deg, oklch(0.18 0.1 295 / 0.35) 0%, oklch(0.22 0.12 295 / 0.2) 50%, oklch(0.18 0.1 295 / 0.05) 100%)" }} />
         </div>
         <div className="mx-auto flex min-h-[80vh] max-w-7xl items-center px-4 py-16 sm:py-20 md:min-h-[88vh] md:px-8 md:py-24">
           <div className="max-w-2xl text-primary-foreground">
