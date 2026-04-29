@@ -31,7 +31,7 @@ export function Header() {
               Srisravv transcorp private limited
             </span>
             <span className="font-brand whitespace-nowrap text-[8px] italic font-medium tracking-wide text-gold-deep md:text-[10px] lg:text-[11px]">
-              Driven by trust. Defined by excellence.
+              Driven by Trust. Defined by Excellence.
             </span>
           </div>
         </Link>
