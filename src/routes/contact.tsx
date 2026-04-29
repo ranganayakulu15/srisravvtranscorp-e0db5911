@@ -54,7 +54,7 @@ function Contact() {
         <div className="mx-auto grid max-w-7xl gap-10 px-4 md:grid-cols-3 md:px-8">
           {[
             { icon: MapPin, title: "Visit Us", lines: ["Alt.F, Kapil Kavuri Hub,", "Financial District, Nanakramguda,", "Telangana – 500032"] },
-            { icon: Phone, title: "Call Us", lines: ["+91-9121212946"], link: "tel:+919121212946" },
+            { icon: Phone, title: "Call Us", lines: ["+91-91 21 21 29 46"], link: "tel:+919121212946" },
             { icon: Mail, title: "Email Us", lines: ["corporate.office@srisravv.com"], link: "mailto:corporate.office@srisravv.com" },
           ].map((c) => (
             <div key={c.title} className="rounded-2xl border border-border bg-card p-8 text-center shadow-elegant">
