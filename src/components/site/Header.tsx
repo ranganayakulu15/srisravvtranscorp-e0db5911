@@ -28,7 +28,7 @@ export function Header() {
           />
           <div className="flex flex-col leading-tight min-w-0 -ml-1">
             <span className="font-brand whitespace-nowrap text-[10px] font-bold tracking-tight text-primary-deep md:text-xs lg:text-sm">
-              SRISRAVV TRANSCORP PRIVATE LIMITED
+              Srisravv transcorp private limited
             </span>
             <span className="font-brand whitespace-nowrap text-[8px] italic font-medium tracking-wide text-gold-deep md:text-[10px] lg:text-[11px]">
               Driven by trust. Defined by excellence.
