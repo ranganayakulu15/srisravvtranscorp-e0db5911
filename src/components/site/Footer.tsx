@@ -7,8 +7,8 @@ export function Footer() {
     <footer className="bg-gradient-hero text-primary-foreground">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-16 md:grid-cols-4 md:px-8">
         <div className="md:col-span-2">
-          <img src={logo} alt="SRISRAVV TRANSCORP" className="h-20 w-auto object-contain" />
-          <p className="mt-4 text-lg font-semibold text-primary-foreground">
+          <img src={logo} alt="SRISRAVV TRANSCORP" className="h-32 w-auto object-contain md:h-40" />
+          <p className="-mt-2 text-lg font-semibold text-primary-foreground">
             SRISRAVV TRANSCORP PRIVATE LIMITED
           </p>
           <p className="mt-1 text-sm italic text-gold">
