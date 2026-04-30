@@ -30,7 +30,7 @@ export function Header() {
             <span className="font-brand whitespace-nowrap text-[10px] font-bold tracking-tight text-primary-deep md:text-xs lg:text-sm">
               Srisravv transcorp private limited
             </span>
-            <span className="font-brand whitespace-nowrap text-[8px] italic font-medium tracking-wide text-gold-deep md:text-[10px] lg:text-[11px]">
+            <span className="whitespace-nowrap font-serif text-[8px] italic font-medium tracking-wide text-gold-deep md:text-[10px] lg:text-[11px]">
               Driven by Trust. Defined by Excellence.
             </span>
           </div>
