@@ -28,7 +28,8 @@ function Intercity() {
             <Bus className="h-8 w-8 sm:h-10 sm:w-10" />
           </div>
           <p className="mt-6 text-[10px] font-bold uppercase tracking-[0.3em] text-gold sm:mt-8 sm:text-xs sm:tracking-[0.4em]">Launching Soon</p>
-          <h1 className="mt-4 text-4xl font-bold leading-tight sm:text-5xl md:text-7xl">
+          <p className="mt-4 font-brand text-2xl font-bold tracking-wide text-gradient-gold sm:text-3xl md:text-4xl">SRISRAVV ROYALE</p>
+          <h1 className="mt-3 text-4xl font-bold leading-tight sm:text-5xl md:text-7xl">
             Intercity Premium <br className="hidden md:block" />
             <span className="text-gradient-gold">AC Sleeper Buses</span>
           </h1>

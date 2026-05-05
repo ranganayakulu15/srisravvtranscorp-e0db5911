@@ -35,7 +35,7 @@ export function Footer() {
         <div>
           <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gold">Reach Us</h4>
           <ul className="space-y-3 text-sm text-primary-foreground/80">
-            <li className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 text-gold" /><span>Alt.F, Kapil Kavuri Hub, Financial District, Nanakramguda, Telangana – 500032</span></li>
+            <li className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 text-gold" /><span>9<sup>th</sup> Floor, Alt.F, Kapil Kavuri Hub, Financial District, Nanakramguda, Telangana – 500032</span></li>
             <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 text-gold" /><a href="tel:+919121212946" className="hover:text-gold">+91-9 12 12 12 946</a></li>
             <li className="flex gap-2"><Mail className="h-4 w-4 shrink-0 text-gold" /><a href="mailto:corporate.office@srisravv.com" className="hover:text-gold break-all">corporate.office@srisravv.com</a></li>
           </ul>
