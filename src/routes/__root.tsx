@@ -40,12 +40,16 @@ export const Route = createRootRoute({
       { name: "twitter:description", content: "SRISRAVV TRANSCORP PRIVATE LIMITED — premium intercity AC sleeper bus services from Hyderabad." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39a14910-1f0a-4b77-9af3-db8be4a2a150/id-preview-7b468df5--d6f61c4f-8a6f-4016-a949-f9c8a851e901.lovable.app-1777171389381.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/39a14910-1f0a-4b77-9af3-db8be4a2a150/id-preview-7b468df5--d6f61c4f-8a6f-4016-a949-f9c8a851e901.lovable.app-1777171389381.png" },
+      { property: "og:url", content: "https://srisravvtranscorp.com/" },
+      // Add your Google Search Console verification tag here
+      // { name: "google-site-verification", content: "YOUR_VERIFICATION_CODE_HERE" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Cinzel:wght@500;600;700;800&display=swap" },
+      { rel: "canonical", href: "https://srisravvtranscorp.com/" },
     ],
   }),
   shellComponent: RootShell,
