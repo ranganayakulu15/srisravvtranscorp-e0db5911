@@ -44,7 +44,7 @@ export function Footer() {
       <div className="border-t border-primary-foreground/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-primary-foreground/60 md:flex-row md:px-8">
           <span>© {new Date().getFullYear()} SRISRAVV TRANSCORP PRIVATE LIMITED. All rights reserved.</span>
-          <span>CIN: To be added</span>
+          <span>CIN: U77305TS2026PTC216078</span>
         </div>
       </div>
     </footer>
